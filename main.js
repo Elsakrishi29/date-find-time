@@ -13,6 +13,9 @@ else if(time>=12 && time<16){
 else if(time>=16 && time<18){
     console.log("Evening");
 }
-else{
+else if(time>=18 && time<=24){
     console.log("Night");
+}
+else{
+    console.log("This is not a time")
 }
